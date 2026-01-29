@@ -52,10 +52,22 @@ BVM_PROJECTS = [
 ]
 
 # =============================================================================
+# Donation Addresses
+# =============================================================================
+
+DONATE_ADDRESSES = {
+    "ETH / USDT (ERC-20)": "0xdF5e04d590d44603FDAdDb9f311b9dF7E5dE797c",
+    "BTC": "bc1q3q25vw4jm8v4xe2g6uezq35q2uyn5jt6e00mj9",
+    "USDT (TRC-20)": "TQj3X5nFQWqPEmRUWNFPjkaRUUFLxmCdok",
+    "SOL": "5s5uP66VmnLMSApjq8ro639tXvSp59XEwQittzxF64mF",
+}
+
+# =============================================================================
 # Slash Commands with descriptions (for autocomplete)
 # =============================================================================
 
 SLASH_COMMANDS = {
+    "/donate": "Support the project",
     "/help": "Show available commands",
     "/quit": "Exit PocketCoder",
     "/exit": "Exit PocketCoder",
@@ -371,6 +383,7 @@ def run_cli(coder: "Coder", debug: bool = False) -> int:
         console.print(f"  [{BVM_COLOR}]→[/{BVM_COLOR}] {name}: [cyan underline]https://{url}[/cyan underline]")
 
     console.print(f"[dim]Provider:[/dim] {coder.provider_name} • [dim]Model:[/dim] {coder.model}")
+    console.print(f"[dim]Support:[/dim] /donate")
     if coder.files:
         console.print(f"Files: {', '.join(f.name for f in coder.files)}")
 
@@ -710,8 +723,30 @@ def handle_command(coder: "Coder", cmd: str) -> str | None:
   /setup           Re-run setup wizard (change provider)
   /ps              Show background processes
   /stop            Stop all background processes
+  /donate          Support the project
   /help            Show this help
   /quit            Exit
+        """)
+
+    elif command == "/donate":
+        console.print("""
+[bold]Support PocketCoder[/bold]
+
+If you find this project useful, consider donating:
+
+  [cyan]ETH / USDT (ERC-20)[/cyan]
+  0xdF5e04d590d44603FDAdDb9f311b9dF7E5dE797c
+
+  [yellow]BTC[/yellow]
+  bc1q3q25vw4jm8v4xe2g6uezq35q2uyn5jt6e00mj9
+
+  [red]USDT (TRC-20)[/red]
+  TQj3X5nFQWqPEmRUWNFPjkaRUUFLxmCdok
+
+  [magenta]SOL[/magenta]
+  5s5uP66VmnLMSApjq8ro639tXvSp59XEwQittzxF64mF
+
+Thank you for your support!
         """)
 
     elif command == "/add":
