@@ -363,7 +363,7 @@ def run_cli(coder: "Coder", debug: bool = False) -> int:
     # Print welcome with BVM logo
     from rich.text import Text
     console.print(Text(BVM_LOGO, style=f"bold {BVM_COLOR}"))
-    console.print(f"[bold]PocketCoder[/bold] v0.5.0 [dim]by[/dim] [{BVM_COLOR}]bvmax.ru[/{BVM_COLOR}]")
+    console.print(f"[bold]PocketCoder[/bold] v1.0.0 [dim]by[/dim] [{BVM_COLOR}]bvmax.ru[/{BVM_COLOR}]")
 
     # Show BVM projects links
     console.print(f"[dim]Projects:[/dim]")

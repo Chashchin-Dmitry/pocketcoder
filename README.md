@@ -64,6 +64,17 @@ pip install -e .
 pytest
 ```
 
+## Support
+
+If you find PocketCoder useful, consider supporting the project:
+
+| Network | Address |
+|---------|---------|
+| **ETH / USDT (ERC-20)** | `0xdF5e04d590d44603FDAdDb9f311b9dF7E5dE797c` |
+| **BTC** | `bc1q3q25vw4jm8v4xe2g6uezq35q2uyn5jt6e00mj9` |
+| **USDT (TRC-20)** | `TQj3X5nFQWqPEmRUWNFPjkaRUUFLxmCdok` |
+| **SOL** | `5s5uP66VmnLMSApjq8ro639tXvSp59XEwQittzxF64mF` |
+
 ## License
 
 MIT
