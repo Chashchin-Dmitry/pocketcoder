@@ -377,13 +377,11 @@ def run_cli(coder: "Coder", debug: bool = False) -> int:
     console.print(Text(BVM_LOGO, style=f"bold {BVM_COLOR}"))
     console.print(f"[bold]PocketCoder[/bold] v1.0.0 [dim]by[/dim] [{BVM_COLOR}]bvmax.ru[/{BVM_COLOR}]")
 
-    # Show BVM projects links
-    console.print(f"[dim]Projects:[/dim]")
-    for name, url in BVM_PROJECTS:
-        console.print(f"  [{BVM_COLOR}]→[/{BVM_COLOR}] {name}: [cyan underline]https://{url}[/cyan underline]")
-
+    # AI Projects link
+    console.print(f"[dim]AI Projects:[/dim] [cyan underline]https://bvmax.ru/ai[/cyan underline]")
     console.print(f"[dim]Provider:[/dim] {coder.provider_name} • [dim]Model:[/dim] {coder.model}")
-    console.print(f"[dim]Support:[/dim] /donate")
+    # Donate with brand colors (compact)
+    console.print(f"[dim]Donate:[/dim] [#627EEA]ETH[/#627EEA] [dim]0xdF5e...E797c[/dim] • [#F7931A]BTC[/#F7931A] [dim]bc1q...mj9[/dim] • [dim]/donate[/dim]")
     if coder.files:
         console.print(f"Files: {', '.join(f.name for f in coder.files)}")
 
