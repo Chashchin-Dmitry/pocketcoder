@@ -1,0 +1,8 @@
+## macOS Commands
+- USB devices: system_profiler SPUSBDataType
+- PCI devices: system_profiler SPPCIDataType
+- Disks: diskutil list
+- Network: ifconfig
+- Install packages: brew install X (NOT apt-get!)
+- CPU info: sysctl -n machdep.cpu.brand_string
+- /sys and /proc do NOT exist on macOS!

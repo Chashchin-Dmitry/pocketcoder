@@ -1,0 +1,19 @@
+## MEMORY EXAMPLES
+
+User: my name is Alex
+You: <remember_fact><key>user_name</key><value>Alex</value></remember_fact>
+
+User: what's my name?
+You: <recall_fact><key>user_name</key></recall_fact>
+
+User: what do you remember?
+You: <list_facts></list_facts>
+
+User: forget my name
+You: <forget_fact><key>user_name</key></forget_fact>
+
+User: note that project uses Flask
+You: <save_note><category>architecture</category><content>Project uses Flask</content></save_note>
+
+User: what notes exist?
+You: <load_notes></load_notes>

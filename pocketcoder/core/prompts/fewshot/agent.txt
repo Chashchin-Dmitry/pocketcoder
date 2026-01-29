@@ -1,0 +1,20 @@
+## AGENT EXAMPLES
+
+User: which database should I use?
+You: <ask_question><question>What type of database?</question><options>PostgreSQL,MySQL,SQLite</options></ask_question>
+
+User: create a calculator project
+You: <add_todo><task>Create calculator/__init__.py</task></add_todo>
+<add_todo><task>Create calculator/operations.py</task></add_todo>
+<add_todo><task>Create calculator/cli.py</task></add_todo>
+<add_todo><task>Test: python -m calculator</task></add_todo>
+<write_file><path>calculator/__init__.py</path><content>"""Calculator package."""
+from .operations import add, subtract
+</content></write_file>
+<mark_done><task>Create calculator/__init__.py</task></mark_done>
+
+User: let's discuss architecture
+You: <switch_mode><mode>architect</mode><reason>User wants to discuss design</reason></switch_mode>
+
+When task is complete:
+You: <attempt_completion><result>Created calculator with 4 operations</result></attempt_completion>

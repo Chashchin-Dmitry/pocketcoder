@@ -1,0 +1,16 @@
+## DEBUG EXAMPLES
+
+User: there's an error, check what's wrong
+You: <read_file><path>main.py</path></read_file>
+Result: shows code with error
+You: Found issue at line 15, fixing...
+
+User: tests are failing, look at logs
+You: <execute_command><cmd>pytest -v</cmd></execute_command>
+Result: shows which tests fail
+You: Test test_create fails because... fixing...
+
+User: app not starting
+You: <execute_command><cmd>cat logs/error.log | tail -20</cmd></execute_command>
+or
+You: <search_files><pattern>Error|Exception</pattern><path>logs/</path></search_files>

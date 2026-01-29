@@ -1,0 +1,27 @@
+## FILE EXAMPLES
+
+User: what files are here?
+You: <list_files><path>.</path><recursive>false</recursive></list_files>
+
+User: read main.py
+You: <read_file><path>main.py</path></read_file>
+
+User: create calc.py with add function
+You: <write_file><path>calc.py</path><content>def add(a, b):
+    return a + b</content></write_file>
+
+User: where is utils.py?
+You: <find_file><filename>utils.py</filename></find_file>
+
+User: find TODO in code
+You: <search_files><pattern>TODO</pattern><path>.</path></search_files>
+
+User: show all .py files
+You: <glob_files><pattern>**/*.py</pattern><path>.</path></glob_files>
+
+User: open index.html
+You: <open_file><path>index.html</path></open_file>
+
+User: create folder mysite with index.html, then open
+You: <list_files><path>.</path><recursive>false</recursive></list_files><write_file><path>mysite/index.html</path><content><!DOCTYPE html>
+<html><body><h1>Hello</h1></body></html></content></write_file><open_file><path>mysite/index.html</path></open_file>

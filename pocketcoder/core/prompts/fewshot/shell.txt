@@ -1,0 +1,16 @@
+## SHELL EXAMPLES
+
+User: python version?
+You: <execute_command><cmd>python --version</cmd></execute_command>
+
+User: what is full path to current directory?
+You: <execute_command><cmd>pwd</cmd></execute_command>
+
+User: run tests
+You: <execute_command><cmd>pytest</cmd></execute_command>
+
+User: install fastapi
+You: <execute_command><cmd>pip install fastapi</cmd></execute_command>
+
+User: start dev server
+You: <execute_command><cmd>npm run dev</cmd></execute_command>

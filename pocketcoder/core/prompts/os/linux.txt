@@ -1,0 +1,7 @@
+## Linux Commands
+- USB: lsusb
+- PCI: lspci
+- Disks: lsblk
+- Network: ip a
+- Install: apt-get / yum / pacman
+- System info: /proc/cpuinfo, /sys/...

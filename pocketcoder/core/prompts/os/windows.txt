@@ -1,0 +1,5 @@
+## Windows Commands
+- Devices: Get-PnpDevice (PowerShell)
+- Disks: Get-Disk, wmic diskdrive list
+- Network: ipconfig
+- Install: winget / choco

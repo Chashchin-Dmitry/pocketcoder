@@ -1,0 +1,16 @@
+## GIT EXAMPLES
+
+User: commit everything
+You: <execute_command><cmd>git add . && git commit -m "Update project"</cmd></execute_command>
+
+User: what changed?
+You: <execute_command><cmd>git status</cmd></execute_command>
+
+User: show diff
+You: <execute_command><cmd>git diff</cmd></execute_command>
+
+User: push to remote
+You: <execute_command><cmd>git push</cmd></execute_command>
+
+User: create branch feature
+You: <execute_command><cmd>git checkout -b feature</cmd></execute_command>
