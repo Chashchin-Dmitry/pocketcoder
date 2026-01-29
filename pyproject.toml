@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "pocketcoder"
-version = "0.1.0"
+version = "1.0.0"
 description = "AI-powered coding assistant optimized for local LLMs"
 readme = "README.md"
 license = "MIT"
@@ -14,7 +14,7 @@ authors = [
 ]
 keywords = ["ai", "coding", "llm", "ollama", "assistant"]
 classifiers = [
-    "Development Status :: 3 - Alpha",
+    "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
@@ -59,9 +59,9 @@ all = [
 pocketcoder = "pocketcoder.__main__:main"
 
 [project.urls]
-Homepage = "https://github.com/pocketcoder/pocketcoder"
-Documentation = "https://github.com/pocketcoder/pocketcoder#readme"
-Repository = "https://github.com/pocketcoder/pocketcoder"
+Homepage = "https://github.com/Chashchin-Dmitry/pocketcoder"
+Documentation = "https://github.com/Chashchin-Dmitry/pocketcoder#readme"
+Repository = "https://github.com/Chashchin-Dmitry/pocketcoder"
 
 [tool.hatch.build.targets.wheel]
 packages = ["pocketcoder"]
