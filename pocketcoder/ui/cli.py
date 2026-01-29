@@ -729,25 +729,28 @@ def handle_command(coder: "Coder", cmd: str) -> str | None:
         """)
 
     elif command == "/donate":
-        console.print("""
-[bold]Support PocketCoder[/bold]
-
-If you find this project useful, consider donating:
-
-  [cyan]ETH / USDT (ERC-20)[/cyan]
-  0xdF5e04d590d44603FDAdDb9f311b9dF7E5dE797c
-
-  [yellow]BTC[/yellow]
-  bc1q3q25vw4jm8v4xe2g6uezq35q2uyn5jt6e00mj9
-
-  [red]USDT (TRC-20)[/red]
-  TQj3X5nFQWqPEmRUWNFPjkaRUUFLxmCdok
-
-  [magenta]SOL[/magenta]
-  5s5uP66VmnLMSApjq8ro639tXvSp59XEwQittzxF64mF
-
-Thank you for your support!
-        """)
+        console.print()
+        console.print("[bold]Support PocketCoder[/bold]")
+        console.print("[dim]If you find this project useful, consider donating:[/dim]")
+        console.print()
+        # ETH - blue/purple brand color
+        console.print("  [#627EEA]ETH[/#627EEA] [dim]/ USDT (ERC-20)[/dim]")
+        console.print("  [dim]0xdF5e04d590d44603FDAdDb9f311b9dF7E5dE797c[/dim]")
+        console.print()
+        # BTC - orange brand color
+        console.print("  [#F7931A]BTC[/#F7931A]")
+        console.print("  [dim]bc1q3q25vw4jm8v4xe2g6uezq35q2uyn5jt6e00mj9[/dim]")
+        console.print()
+        # USDT TRC-20 (Tron) - red brand color
+        console.print("  [#FF0013]TRX[/#FF0013] [dim]/ USDT (TRC-20)[/dim]")
+        console.print("  [dim]TQj3X5nFQWqPEmRUWNFPjkaRUUFLxmCdok[/dim]")
+        console.print()
+        # SOL - purple/gradient brand color
+        console.print("  [#9945FF]SOL[/#9945FF]")
+        console.print("  [dim]5s5uP66VmnLMSApjq8ro639tXvSp59XEwQittzxF64mF[/dim]")
+        console.print()
+        console.print("[dim]Thank you for your support![/dim]")
+        console.print()
 
     elif command == "/add":
         for arg in args:
