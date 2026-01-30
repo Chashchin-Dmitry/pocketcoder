@@ -5,7 +5,7 @@ A lightweight, extensible coding assistant that works with any local LLM
 (Ollama, vLLM, LM Studio, llama.cpp, etc.) through OpenAI-compatible APIs.
 """
 
-__version__ = "1.0.1"
+__version__ = "1.0.2"
 __author__ = "PocketCoder Team"
 
 from pocketcoder.core.models import Edit, Message, FileContext
