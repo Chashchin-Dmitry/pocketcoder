@@ -9,7 +9,7 @@
 Features session persistence, multi-step task planning, project-aware context (RepoMap), and interactive file editing with human-in-the-loop approval.
 
 <p align="center">
-  <img src="assets/screenshots/01_startup.png" alt="PocketCoder CLI" width="700">
+  <img src="https://raw.githubusercontent.com/Chashchin-Dmitry/pocketcoder/main/assets/screenshots/01_startup.png" alt="PocketCoder CLI" width="700">
 </p>
 
 ---
@@ -58,19 +58,19 @@ pocketcoder --provider openai --model gpt-4o
 Ask PocketCoder to create a GUI calculator — it plans, asks clarifying questions, writes code, and runs it:
 
 <p align="center">
-  <img src="assets/screenshots/05_thinking_question.png" alt="Agent asks clarifying question" width="700">
+  <img src="https://raw.githubusercontent.com/Chashchin-Dmitry/pocketcoder/main/assets/screenshots/05_thinking_question.png" alt="Agent asks clarifying question" width="700">
 </p>
 
 *Agent reasons about the task and asks what type of calculator you need*
 
 <p align="center">
-  <img src="assets/screenshots/06_write_preview.png" alt="Code preview before writing" width="700">
+  <img src="https://raw.githubusercontent.com/Chashchin-Dmitry/pocketcoder/main/assets/screenshots/06_write_preview.png" alt="Code preview before writing" width="700">
 </p>
 
 *Shows code preview before writing — you approve with [y] or skip with [n]*
 
 <p align="center">
-  <img src="assets/screenshots/08_calculator_result.png" alt="Working calculator" width="700">
+  <img src="https://raw.githubusercontent.com/Chashchin-Dmitry/pocketcoder/main/assets/screenshots/08_calculator_result.png" alt="Working calculator" width="700">
 </p>
 
 *Result: working tkinter calculator created and executed*
@@ -89,7 +89,7 @@ RepoMap shows your codebase structure to the LLM. Agent knows your file layout.
 TODO tracking with automatic planning. Agent breaks complex tasks into steps.
 
 <p align="center">
-  <img src="assets/screenshots/04_session_context.png" alt="SESSION_CONTEXT" width="700">
+  <img src="https://raw.githubusercontent.com/Chashchin-Dmitry/pocketcoder/main/assets/screenshots/04_session_context.png" alt="SESSION_CONTEXT" width="700">
 </p>
 
 *SESSION_CONTEXT: what the LLM sees about your project*
@@ -98,7 +98,7 @@ TODO tracking with automatic planning. Agent breaks complex tasks into steps.
 Every file write requires your approval. Ask questions, reject changes, cancel tasks.
 
 <p align="center">
-  <img src="assets/screenshots/09_task_control.png" alt="Task control" width="700">
+  <img src="https://raw.githubusercontent.com/Chashchin-Dmitry/pocketcoder/main/assets/screenshots/09_task_control.png" alt="Task control" width="700">
 </p>
 
 *Full control: reject changes, explain why, cancel entire task*
@@ -108,7 +108,7 @@ Every file write requires your approval. Ask questions, reject changes, cancel t
 ## Architecture
 
 <p align="center">
-  <img src="assets/architecture.png" alt="PocketCoder Architecture" width="600">
+  <img src="https://raw.githubusercontent.com/Chashchin-Dmitry/pocketcoder/main/assets/architecture.png" alt="PocketCoder Architecture" width="600">
 </p>
 
 <details>
@@ -134,7 +134,7 @@ Every file write requires your approval. Ask questions, reject changes, cancel t
 Type `/` to see all commands:
 
 <p align="center">
-  <img src="assets/screenshots/02_commands.png" alt="Commands menu" width="600">
+  <img src="https://raw.githubusercontent.com/Chashchin-Dmitry/pocketcoder/main/assets/screenshots/02_commands.png" alt="Commands menu" width="600">
 </p>
 
 | Command | Description |
