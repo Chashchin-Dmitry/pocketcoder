@@ -107,6 +107,30 @@ Every file write requires your approval. Ask questions, reject changes, cancel t
 
 ---
 
+## Architecture
+
+<p align="center">
+  <img src="assets/architecture.png" alt="PocketCoder Architecture" width="600">
+</p>
+
+<details>
+<summary><b>How the Agent Loop works</b></summary>
+
+1. **Task Initialization** — TaskSummarizer captures your goal
+2. **Reconnaissance Rule** — READ before WRITE, never blind edits
+3. **RepoMap** — Automatic codebase structure (gears by project size)
+4. **Tool Execution** — Execute tools, get raw results
+5. **ContentPreview** — Smart summarization (LLM sees actual code)
+6. **State Tracking** — FileTracker + TodoStateMachine
+7. **Episodic Memory** — Checkpoint progress, search history
+8. **SESSION_CONTEXT** — XML with files, task, repo_map, todo, history
+9. **REFLECT prompt** — Self-check before next iteration
+10. **Parser** — Auto-sync KNOWN_TOOLS with available tools
+
+</details>
+
+---
+
 ## Commands
 
 Type `/` to see all commands:
