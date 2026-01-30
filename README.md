@@ -4,9 +4,9 @@
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-**AI coding agent that runs with any LLM — local or cloud.**
+**CLI coding assistant supporting Ollama, OpenAI, Claude.**
 
-Stop paying $20/month for cloud AI coding tools. PocketCoder works with free local models like Qwen, Llama, or DeepSeek running on your own machine via Ollama. Or connect to OpenAI/Claude if you prefer.
+Features session persistence, multi-step task planning, project-aware context (RepoMap), and interactive file editing with human-in-the-loop approval.
 
 <p align="center">
   <img src="assets/screenshots/01_startup.png" alt="PocketCoder CLI" width="700">
@@ -42,16 +42,14 @@ pocketcoder --provider openai --model gpt-4o
 
 ---
 
-## Why PocketCoder?
+## Key Features
 
-| Feature | PocketCoder | Cloud Tools |
-|---------|-------------|-------------|
-| **Cost** | Free (local) | $20+/month |
-| **Privacy** | 100% local | Data sent to cloud |
-| **Models** | Any LLM you want | Locked to one vendor |
-| **Offline** | Works without internet | Requires connection |
-| **Multi-step** | TODO tracking, planning | Basic completion |
-| **Project awareness** | RepoMap, session memory | Limited context |
+- **Multi-provider** — Ollama, OpenAI, Anthropic, vLLM, LM Studio
+- **Session memory** — agent remembers context across requests
+- **Task planning** — TODO tracking with automatic breakdown
+- **RepoMap** — project structure awareness for better context
+- **Human-in-the-loop** — approve/reject every file change
+- **Offline capable** — works fully local with Ollama
 
 ---
 
