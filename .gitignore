@@ -123,3 +123,4 @@ dmypy.json
 
 # MacOS
 .DS_Store
+test_venv/
