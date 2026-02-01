@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "pocketcoder"
-version = "1.0.3"
+version = "1.0.4"
 description = "AI-powered coding assistant optimized for local LLMs"
 readme = "README.md"
 license = "MIT"

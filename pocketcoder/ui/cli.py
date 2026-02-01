@@ -56,10 +56,10 @@ BVM_PROJECTS = [
 # =============================================================================
 
 DONATE_ADDRESSES = {
-    "ETH / USDT (ERC-20)": "0xdF5e04d590d44603FDAdDb9f311b9dF7E5dE797c",
-    "BTC": "bc1q3q25vw4jm8v4xe2g6uezq35q2uyn5jt6e00mj9",
-    "USDT (TRC-20)": "TQj3X5nFQWqPEmRUWNFPjkaRUUFLxmCdok",
-    "SOL": "5s5uP66VmnLMSApjq8ro639tXvSp59XEwQittzxF64mF",
+    "ETH / USDT (ERC-20)": "0xA7BdDcf2D576308E14346B0C029a120d45a5AcD7",
+    "BTC": "bc1q3ylca90wneas5e8mtx2wzav22cgqcajst5szaf",
+    "USDT (TRC-20)": "TB31Y8jhe8JRn5YRL1NnVzL8pka1PwqJvU",
+    "SOL": "J4YBJXyWGnACM2nF35x11WiRxjHLM8nopg8fGZzrjkT",
 }
 
 # =============================================================================
@@ -381,7 +381,7 @@ def run_cli(coder: "Coder", debug: bool = False) -> int:
     console.print(f"[dim]AI Projects:[/dim] [cyan underline]https://bvmax.ru/ai[/cyan underline]")
     console.print(f"[dim]Provider:[/dim] {coder.provider_name} • [dim]Model:[/dim] {coder.model}")
     # Donate with brand colors (compact)
-    console.print(f"[dim]Donate:[/dim] [#627EEA]ETH[/#627EEA] [dim]0xdF5e...E797c[/dim] • [#F7931A]BTC[/#F7931A] [dim]bc1q...mj9[/dim] • [dim]/donate[/dim]")
+    console.print(f"[dim]Donate:[/dim] [#627EEA]ETH[/#627EEA] [dim]0xA7Bd...AcD7[/dim] • [#F7931A]BTC[/#F7931A] [dim]bc1q3...szaf[/dim] • [dim]/donate[/dim]")
     if coder.files:
         console.print(f"Files: {', '.join(f.name for f in coder.files)}")
 
@@ -733,19 +733,19 @@ def handle_command(coder: "Coder", cmd: str) -> str | None:
         console.print()
         # ETH - blue/purple brand color
         console.print("  [#627EEA]ETH[/#627EEA] [dim]/ USDT (ERC-20)[/dim]")
-        console.print("  [dim]0xdF5e04d590d44603FDAdDb9f311b9dF7E5dE797c[/dim]")
+        console.print("  [dim]0xA7BdDcf2D576308E14346B0C029a120d45a5AcD7[/dim]")
         console.print()
         # BTC - orange brand color
         console.print("  [#F7931A]BTC[/#F7931A]")
-        console.print("  [dim]bc1q3q25vw4jm8v4xe2g6uezq35q2uyn5jt6e00mj9[/dim]")
+        console.print("  [dim]bc1q3ylca90wneas5e8mtx2wzav22cgqcajst5szaf[/dim]")
         console.print()
         # USDT TRC-20 (Tron) - red brand color
         console.print("  [#FF0013]TRX[/#FF0013] [dim]/ USDT (TRC-20)[/dim]")
-        console.print("  [dim]TQj3X5nFQWqPEmRUWNFPjkaRUUFLxmCdok[/dim]")
+        console.print("  [dim]TB31Y8jhe8JRn5YRL1NnVzL8pka1PwqJvU[/dim]")
         console.print()
         # SOL - purple/gradient brand color
         console.print("  [#9945FF]SOL[/#9945FF]")
-        console.print("  [dim]5s5uP66VmnLMSApjq8ro639tXvSp59XEwQittzxF64mF[/dim]")
+        console.print("  [dim]J4YBJXyWGnACM2nF35x11WiRxjHLM8nopg8fGZzrjkT[/dim]")
         console.print()
         console.print("[dim]Thank you for your support![/dim]")
         console.print()

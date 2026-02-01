@@ -222,10 +222,10 @@ If PocketCoder saves you money on AI subscriptions, consider supporting developm
 
 | Network | Address |
 |---------|---------|
-| ETH / USDT (ERC-20) | `0xdF5e04d590d44603FDAdDb9f311b9dF7E5dE797c` |
-| BTC | `bc1q3q25vw4jm8v4xe2g6uezq35q2uyn5jt6e00mj9` |
-| USDT (TRC-20) | `TQj3X5nFQWqPEmRUWNFPjkaRUUFLxmCdok` |
-| SOL | `5s5uP66VmnLMSApjq8ro639tXvSp59XEwQittzxF64mF` |
+| ETH / USDT (ERC-20) | `0xA7BdDcf2D576308E14346B0C029a120d45a5AcD7` |
+| BTC | `bc1q3ylca90wneas5e8mtx2wzav22cgqcajst5szaf` |
+| USDT (TRC-20) | `TB31Y8jhe8JRn5YRL1NnVzL8pka1PwqJvU` |
+| SOL | `J4YBJXyWGnACM2nF35x11WiRxjHLM8nopg8fGZzrjkT` |
 
 ---
 
